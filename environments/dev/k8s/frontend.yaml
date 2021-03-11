@@ -10,6 +10,7 @@ spec:
     metadata:
       labels:
         app: eshop-frontend
+        version: v1
     spec:
       containers:
         - name: eshop-frontend
@@ -36,6 +37,7 @@ spec:
     metadata:
       labels:
         app: eshop-frontend
+        version: v2
     spec:
       containers:
         - name: eshop-frontend
