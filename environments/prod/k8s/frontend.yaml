@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: eshop-frontend-v1
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: eshop-frontend
